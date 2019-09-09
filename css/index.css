@@ -80,7 +80,7 @@ header nav {
 }
 
 header nav a {
-  margin-right: 10%;
+  margin-right: 9%;
   font-size: 14px;
   color: gray;
   text-decoration: none;
@@ -90,13 +90,13 @@ header nav a:hover {
   text-decoration: underline;
 }
 
-header nav a:first-child {
+/*header nav a:first-child {
   margin-left: 0;
 }
 
 header nav a:last-child {
   margin-right: 0;
-}
+}*/
 
 .logo {
   margin-top: 2%;
@@ -225,12 +225,14 @@ footer {
         align-items: center;
     }
     header nav a{
+        align-items: center;
         text-align: center;
         width: 100%;
         font-size: 20px;
         padding: 4%;
         border-bottom: 1px solid black;
         border-top: 1px solid black;
+        margin: 0
     }
     .top-content{
         flex-direction: column;
